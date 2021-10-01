@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="etiqueta1" layoutX="62.0" layoutY="53.0" text="Nom:" />
+      <Label fx:id="etiqueta2" layoutX="300.0" layoutY="53.0" text="Password" />
+      <Button fx:id="boto1" layoutX="515.0" layoutY="48.0" mnemonicParsing="false" onAction="#iniciarSesio" prefHeight="26.0" prefWidth="70.0" text="Validar" textFill="#00f82e" />
+      <TextField fx:id="caixa1" layoutX="110.0" layoutY="48.0" />
+      <TextField fx:id="caixa2" layoutX="375.0" layoutY="48.0" prefHeight="26.0" prefWidth="135.0" />
+      <TextArea fx:id="cos" editable="false" layoutX="54.0" layoutY="93.0" prefHeight="26.0" prefWidth="530.0" text="Entra el teu nom y password" />
+      <Label fx:id="etiqueta3" layoutX="62.0" layoutY="140.0" prefHeight="35.0" prefWidth="135.0" text="Operacions:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="boto2" layoutX="56.0" layoutY="187.0" mnemonicParsing="false" onAction="#consultasaldo" prefHeight="26.0" prefWidth="107.0" text="Consulta saldo" />
+      <Button fx:id="boto3" layoutX="56.0" layoutY="220.0" mnemonicParsing="false" onAction="#ingresdiners" prefHeight="26.0" prefWidth="107.0" text="Ingresar diners" />
+      <Button fx:id="boto4" layoutX="56.0" layoutY="254.0" mnemonicParsing="false" onAction="#treurediners" prefHeight="26.0" prefWidth="107.0" text="Treure diners" />
+      <Button fx:id="boto5" layoutX="56.0" layoutY="312.0" mnemonicParsing="false" onAction="#sortir" prefHeight="26.0" prefWidth="107.0" text="Sortir" textFill="#f70000" />
+      <TextArea fx:id="cos1" editable="false" layoutX="178.0" layoutY="186.0" prefHeight="159.0" prefWidth="410.0" />
+      <Button fx:id="b10" layoutX="230.0" layoutY="233.0" mnemonicParsing="false" onAction="#sum10" prefHeight="26.0" prefWidth="50.0" text="10€" />
+      <Button fx:id="b20" layoutX="294.0" layoutY="233.0" mnemonicParsing="false" onAction="#sum20" prefHeight="26.0" prefWidth="50.0" text="20€" />
+      <Button fx:id="b50" layoutX="350.0" layoutY="233.0" mnemonicParsing="false" onAction="#sum50" prefHeight="26.0" prefWidth="50.0" text="50€" />
+      <Label fx:id="etiqueta4" layoutX="234.0" layoutY="211.0" text="Escull bitllet">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="etiqueta5" layoutX="234.0" layoutY="271.0" text="Total" />
+      <TextField fx:id="caixa3" alignment="TOP_RIGHT" editable="false" layoutX="234.0" layoutY="299.0" text="0" />
+   </children>
+</AnchorPane>

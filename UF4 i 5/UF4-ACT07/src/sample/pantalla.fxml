@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="boto1" layoutX="88.0" layoutY="149.0" mnemonicParsing="false" onAction="#sorteig" prefHeight="59.0" prefWidth="133.0" text="Realitzar Sorteig" />
+      <Button fx:id="boto2" layoutX="254.0" layoutY="149.0" mnemonicParsing="false" onAction="#comprovar" prefHeight="59.0" prefWidth="133.0" text="Comprovar" />
+      <Label layoutX="32.0" layoutY="24.0" text="Apostes:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="caja1" alignment="TOP_LEFT" layoutX="43.0" layoutY="300.0" prefHeight="75.0" prefWidth="405.0" style="-fx-border-color: red;">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <TextField fx:id="num1" layoutX="32.0" layoutY="76.0" prefHeight="59.0" prefWidth="61.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="num6" layoutX="397.0" layoutY="76.0" prefHeight="59.0" prefWidth="61.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="num5" layoutX="321.0" layoutY="76.0" prefHeight="59.0" prefWidth="61.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="num4" layoutX="245.0" layoutY="76.0" prefHeight="59.0" prefWidth="61.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="num3" layoutX="175.0" layoutY="76.0" prefHeight="59.0" prefWidth="61.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="num2" layoutX="101.0" layoutY="76.0" prefHeight="59.0" prefWidth="61.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="r1" editable="false" layoutX="32.0" layoutY="223.0" prefHeight="66.0" prefWidth="61.0" />
+      <TextField fx:id="r2" editable="false" layoutX="101.0" layoutY="223.0" prefHeight="66.0" prefWidth="61.0" />
+      <TextField fx:id="r3" editable="false" layoutX="175.0" layoutY="223.0" prefHeight="66.0" prefWidth="61.0" />
+      <TextField fx:id="r4" editable="false" layoutX="245.0" layoutY="223.0" prefHeight="66.0" prefWidth="61.0" />
+      <TextField fx:id="r5" editable="false" layoutX="321.0" layoutY="223.0" prefHeight="66.0" prefWidth="61.0" />
+      <TextField fx:id="r6" editable="false" layoutX="397.0" layoutY="223.0" prefHeight="66.0" prefWidth="61.0" />
+      <TextField fx:id="r61" editable="false" layoutX="516.0" layoutY="223.0" prefHeight="66.0" prefWidth="61.0" />
+      <Label layoutX="491.0" layoutY="201.0" text="Reintegrament:">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

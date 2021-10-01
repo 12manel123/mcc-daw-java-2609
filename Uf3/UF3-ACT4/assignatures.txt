@@ -1,0 +1,4 @@
+Bases de dades
+Llenguatges de marques
+Programacio
+Sistemes operatius
